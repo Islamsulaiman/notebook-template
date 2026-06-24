@@ -1,0 +1,7 @@
+
+.aider*
+# Ignore local device UI layouts and workspace states
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/sync-processor-state.json

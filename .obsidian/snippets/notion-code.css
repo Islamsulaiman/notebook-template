@@ -1,0 +1,12 @@
+/* True Notion Style: Soft Grey Background + Red Text */
+.markdown-rendered code, 
+.cm-inline-code,
+.cm-s-obsidian span.cm-inline-code {
+    color: #eb5757 !important; /* Notion's specific dark-mode red/coral text */
+    background-color: #2a2a2a !important; /* Soft, contrasting grey background */
+    padding: 0.2em 0.4em !important;
+    border-radius: 4px !important;
+    font-family: var(--font-monospace) !important;
+    font-size: 0.88em !important;
+    border: none !important; /* Removed the tinted border to keep it clean and flat */
+}

@@ -1,0 +1,6 @@
+/* Mermaid diagrams: scale down to fit the note width, never upscale */
+.mermaid svg,
+.mermaid-container svg {
+    max-width: 100% !important;
+    height: auto !important;
+}

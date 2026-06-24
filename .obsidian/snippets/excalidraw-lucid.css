@@ -1,0 +1,87 @@
+/* Excalidraw — light canvas background + styled Mermaid embeds only.
+   Native Excalidraw shapes are canvas-rendered — CSS cannot style them,
+   so we leave them completely alone. */
+
+/* ── Canvas background (the infinite scroll area behind shapes) ───────── */
+.excalidraw .App-scroll-container,
+.excalidraw .excalidraw-canvas-container,
+.excalidraw-canvas {
+    background-color: #f8f8f5 !important;
+}
+
+/* The actual <canvas> element background */
+canvas.excalidraw__canvas {
+    background-color: #f8f8f5 !important;
+}
+
+/* ── Mermaid SVG embeds inside Excalidraw MD elements ────────────────── */
+/* These ARE SVG, so CSS works fine here */
+
+.excalidraw .mermaid svg,
+.excalidraw svg.mermaid {
+    background: #f8f8f5 !important;
+}
+
+/* Node boxes */
+.excalidraw .mermaid .node rect,
+.excalidraw .mermaid .node polygon,
+.excalidraw .mermaid .node circle,
+.excalidraw .mermaid .node ellipse {
+    fill: #d6e4f7 !important;
+    stroke: #6b97d4 !important;
+    stroke-width: 1.5px !important;
+}
+
+/* Decision diamonds */
+.excalidraw .mermaid .node polygon {
+    fill: #e2d6f7 !important;
+    stroke: #9b7dd4 !important;
+}
+
+/* Node labels */
+.excalidraw .mermaid .nodeLabel,
+.excalidraw .mermaid .label foreignObject div,
+.excalidraw .mermaid text {
+    color: #1a1a2e !important;
+    fill: #1a1a2e !important;
+}
+
+/* Edges and arrowheads */
+.excalidraw .mermaid .edgePath path,
+.excalidraw .mermaid .flowchart-link {
+    stroke: #6b97d4 !important;
+    stroke-width: 1.5px !important;
+}
+
+.excalidraw .mermaid marker path {
+    fill: #6b97d4 !important;
+    stroke: #6b97d4 !important;
+}
+
+/* ── Standalone Mermaid in reading mode (outside Excalidraw) ─────────── */
+.mermaid .node rect,
+.mermaid .node polygon,
+.mermaid .node circle {
+    fill: #d6e4f7 !important;
+    stroke: #6b97d4 !important;
+}
+
+.mermaid .node polygon {
+    fill: #e2d6f7 !important;
+    stroke: #9b7dd4 !important;
+}
+
+.mermaid .nodeLabel,
+.mermaid text {
+    fill: #1a1a2e !important;
+    color: #1a1a2e !important;
+}
+
+.mermaid .edgePath path,
+.mermaid .flowchart-link {
+    stroke: #6b97d4 !important;
+}
+
+.mermaid marker path {
+    fill: #6b97d4 !important;
+}

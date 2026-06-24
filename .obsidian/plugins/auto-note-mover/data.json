@@ -1,0 +1,72 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "20_Personal/00_Project",
+      "tag": "#project/active",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/01_People",
+      "tag": "#people",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/04_Learning/How-Tos",
+      "tag": "#knowledge/how-to",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/02_Journal",
+      "tag": "#journal",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/04_Learning/Books",
+      "tag": "#resource/book",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/04_Learning/Concepts",
+      "tag": "#knowledge/concept",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/02_Journal",
+      "tag": "#task/todo",
+      "pattern": ""
+    },
+    {
+      "folder": "10_Work/00_CompanyA/Meetings",
+      "tag": "#meeting/companya",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/03_To-Do",
+      "tag": "#task/daily",
+      "pattern": ""
+    },
+    {
+      "folder": "20_Personal/04_Learning/Tools",
+      "tag": "#knowledge/tool",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "00_System/Templates"
+    },
+    {
+      "folder": "00_System/Attachments"
+    },
+    {
+      "folder": "00_System/Drawings"
+    },
+    {
+      "folder": "00_System/Docs"
+    }
+  ]
+}
